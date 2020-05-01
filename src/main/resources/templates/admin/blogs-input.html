@@ -169,8 +169,6 @@
           <h4 class="ui inverted header m-text-thin m-text-spaced " >最新博客</h4>
           <div class="ui inverted link list">
             <a href="#" class="item m-text-thin">用户故事（User Story）</a>
-            <a href="#" class="item m-text-thin">用户故事（User Story）</a>
-            <a href="#" class="item m-text-thin">用户故事（User Story）</a>
           </div>
         </div>
         <div class="three wide column">
@@ -194,6 +192,7 @@
   <!--/*/<th:block th:replace="admin/_fragments :: script">/*/-->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+  <script src="../../static/lib/editormd/editormd.min.js" th:src="@{/lib/editormd/editormd.min.js}"></script>
   <!--/*/</th:block>/*/-->
 
 
@@ -230,7 +229,7 @@
     });
 
 
-
+    /*页面非空校验*/
     $('.ui.form').form({
       fields : {
         title : {
