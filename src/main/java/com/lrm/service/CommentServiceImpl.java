@@ -12,9 +12,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Created by limi on 2017/10/22.
- */
 @Service
 public class CommentServiceImpl implements CommentService {
 
@@ -25,7 +22,7 @@ public class CommentServiceImpl implements CommentService {
     public List<Comment> listCommentByBlogId(Long blogId) {
         Sort sort = Sort.by("createTime");
         List<Comment> comments = commentRepository.findByBlogIdAndParentCommentNull(blogId,sort);
-        return eachComment(comments);
+        return eachComment(comments);//顶级评论数组且每个评论深度为2
     }
 
     @Transactional
