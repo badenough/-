@@ -1,6 +1,6 @@
-2020-04-29 16:15:42.807  INFO 10292 --- [restartedMain] com.lrm.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 10292 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
-2020-04-29 16:15:42.807 DEBUG 10292 --- [restartedMain] com.lrm.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-29 16:15:42.807  INFO 10292 --- [restartedMain] com.lrm.Blog01Application                : The following profiles are active: dev
+2020-04-29 16:15:42.807  INFO 10292 --- [restartedMain] com.xjtu.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 10292 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
+2020-04-29 16:15:42.807 DEBUG 10292 --- [restartedMain] com.xjtu.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-29 16:15:42.807  INFO 10292 --- [restartedMain] com.xjtu.Blog01Application                : The following profiles are active: dev
 2020-04-29 16:15:42.932  INFO 10292 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Program Files\maven_repository\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
 2020-04-29 16:15:42.932  INFO 10292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2020-04-29 16:15:42.932  INFO 10292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -29,17 +29,17 @@
 2020-04-29 16:15:48.323  INFO 10292 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-04-29 16:15:48.401  INFO 10292 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2020-04-29 16:15:48.964  INFO 10292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-29 16:15:48.979  INFO 10292 --- [restartedMain] com.lrm.Blog01Application                : Started Blog01Application in 6.922 seconds (JVM running for 8.663)
+2020-04-29 16:15:48.979  INFO 10292 --- [restartedMain] com.xjtu.Blog01Application                : Started Blog01Application in 6.922 seconds (JVM running for 8.663)
 2020-04-29 16:16:05.623  INFO 10292 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-29 16:16:05.624  INFO 10292 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-29 16:16:05.637  INFO 10292 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
-2020-04-29 16:16:05.658  INFO 10292 --- [http-nio-8080-exec-1] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[]}
-2020-04-29 16:16:05.665  INFO 10292 --- [http-nio-8080-exec-1] com.lrm.aspect.LogAspect                 : Result : index
-2020-04-29 16:17:45.935  INFO 10292 --- [http-nio-8080-exec-1] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[]}
-2020-04-29 16:17:45.935  INFO 10292 --- [http-nio-8080-exec-1] com.lrm.aspect.LogAspect                 : Result : index
-2020-04-29 16:30:25.934  INFO 12576 --- [restartedMain] com.lrm.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 12576 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
-2020-04-29 16:30:25.938 DEBUG 12576 --- [restartedMain] com.lrm.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-29 16:30:25.939  INFO 12576 --- [restartedMain] com.lrm.Blog01Application                : The following profiles are active: dev
+2020-04-29 16:16:05.658  INFO 10292 --- [http-nio-8080-exec-1] com.xjtu.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xjtu.web.IndexController.index', args=[]}
+2020-04-29 16:16:05.665  INFO 10292 --- [http-nio-8080-exec-1] com.xjtu.aspect.LogAspect                 : Result : index
+2020-04-29 16:17:45.935  INFO 10292 --- [http-nio-8080-exec-1] com.xjtu.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xjtu.web.IndexController.index', args=[]}
+2020-04-29 16:17:45.935  INFO 10292 --- [http-nio-8080-exec-1] com.xjtu.aspect.LogAspect                 : Result : index
+2020-04-29 16:30:25.934  INFO 12576 --- [restartedMain] com.xjtu.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 12576 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
+2020-04-29 16:30:25.938 DEBUG 12576 --- [restartedMain] com.xjtu.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-29 16:30:25.939  INFO 12576 --- [restartedMain] com.xjtu.Blog01Application                : The following profiles are active: dev
 2020-04-29 16:30:25.995  INFO 12576 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Program Files\maven_repository\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
 2020-04-29 16:30:25.997  INFO 12576 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2020-04-29 16:30:25.998  INFO 12576 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -68,15 +68,15 @@
 2020-04-29 16:30:31.437  INFO 12576 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-04-29 16:30:31.521  INFO 12576 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2020-04-29 16:30:32.155  INFO 12576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-29 16:30:32.157  INFO 12576 --- [restartedMain] com.lrm.Blog01Application                : Started Blog01Application in 6.965 seconds (JVM running for 8.467)
+2020-04-29 16:30:32.157  INFO 12576 --- [restartedMain] com.xjtu.Blog01Application                : Started Blog01Application in 6.965 seconds (JVM running for 8.467)
 2020-04-29 16:31:11.980  INFO 12576 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-29 16:31:11.981  INFO 12576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-29 16:31:11.997  INFO 12576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
-2020-04-29 16:33:33.417  INFO 12576 --- [http-nio-8080-exec-2] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.blog', args=[]}
-2020-04-29 16:33:33.428  INFO 12576 --- [http-nio-8080-exec-2] com.lrm.aspect.LogAspect                 : Result : blog
-2020-04-29 16:35:49.466  INFO 6216 --- [restartedMain] com.lrm.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 6216 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
-2020-04-29 16:35:49.466 DEBUG 6216 --- [restartedMain] com.lrm.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-29 16:35:49.466  INFO 6216 --- [restartedMain] com.lrm.Blog01Application                : The following profiles are active: dev
+2020-04-29 16:33:33.417  INFO 12576 --- [http-nio-8080-exec-2] com.xjtu.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.xjtu.web.IndexController.blog', args=[]}
+2020-04-29 16:33:33.428  INFO 12576 --- [http-nio-8080-exec-2] com.xjtu.aspect.LogAspect                 : Result : blog
+2020-04-29 16:35:49.466  INFO 6216 --- [restartedMain] com.xjtu.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 6216 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
+2020-04-29 16:35:49.466 DEBUG 6216 --- [restartedMain] com.xjtu.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-29 16:35:49.466  INFO 6216 --- [restartedMain] com.xjtu.Blog01Application                : The following profiles are active: dev
 2020-04-29 16:35:49.528  INFO 6216 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Program Files\maven_repository\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
 2020-04-29 16:35:49.528  INFO 6216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2020-04-29 16:35:49.528  INFO 6216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -105,14 +105,14 @@
 2020-04-29 16:35:54.060  INFO 6216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-04-29 16:35:54.138  INFO 6216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2020-04-29 16:35:54.622  INFO 6216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-29 16:35:54.622  INFO 6216 --- [restartedMain] com.lrm.Blog01Application                : Started Blog01Application in 5.796 seconds (JVM running for 7.007)
+2020-04-29 16:35:54.622  INFO 6216 --- [restartedMain] com.xjtu.Blog01Application                : Started Blog01Application in 5.796 seconds (JVM running for 7.007)
 2020-04-29 16:36:09.227  INFO 6216 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-29 16:36:09.228  INFO 6216 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-29 16:36:09.241  INFO 6216 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
 2020-04-29 16:38:27.295  WARN 6216 --- [http-nio-8080-exec-9] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [281] milliseconds.
-2020-04-29 16:47:51.368  INFO 5248 --- [restartedMain] com.lrm.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 5248 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
-2020-04-29 16:47:51.368 DEBUG 5248 --- [restartedMain] com.lrm.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-29 16:47:51.368  INFO 5248 --- [restartedMain] com.lrm.Blog01Application                : The following profiles are active: dev
+2020-04-29 16:47:51.368  INFO 5248 --- [restartedMain] com.xjtu.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 5248 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
+2020-04-29 16:47:51.368 DEBUG 5248 --- [restartedMain] com.xjtu.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-29 16:47:51.368  INFO 5248 --- [restartedMain] com.xjtu.Blog01Application                : The following profiles are active: dev
 2020-04-29 16:47:51.525  INFO 5248 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Program Files\maven_repository\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
 2020-04-29 16:47:51.525  INFO 5248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2020-04-29 16:47:51.525  INFO 5248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -141,17 +141,17 @@
 2020-04-29 16:47:56.545  INFO 5248 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-04-29 16:47:56.654  INFO 5248 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2020-04-29 16:47:57.232  INFO 5248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-29 16:47:57.248  INFO 5248 --- [restartedMain] com.lrm.Blog01Application                : Started Blog01Application in 6.518 seconds (JVM running for 7.99)
+2020-04-29 16:47:57.248  INFO 5248 --- [restartedMain] com.xjtu.Blog01Application                : Started Blog01Application in 6.518 seconds (JVM running for 7.99)
 2020-04-29 16:48:15.751  INFO 5248 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-29 16:48:15.751  INFO 5248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-29 16:48:15.765  INFO 5248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
-2020-04-29 16:52:12.844  INFO 5248 --- [http-nio-8080-exec-5] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[]}
-2020-04-29 16:52:12.851  INFO 5248 --- [http-nio-8080-exec-5] com.lrm.aspect.LogAspect                 : Result : index
-2020-04-29 16:52:47.277  INFO 5248 --- [http-nio-8080-exec-2] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.blog', args=[]}
-2020-04-29 16:52:47.279  INFO 5248 --- [http-nio-8080-exec-2] com.lrm.aspect.LogAspect                 : Result : blog
-2020-04-29 19:51:11.673  INFO 13200 --- [restartedMain] com.lrm.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 13200 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
-2020-04-29 19:51:11.673 DEBUG 13200 --- [restartedMain] com.lrm.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-29 19:51:11.673  INFO 13200 --- [restartedMain] com.lrm.Blog01Application                : The following profiles are active: dev
+2020-04-29 16:52:12.844  INFO 5248 --- [http-nio-8080-exec-5] com.xjtu.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xjtu.web.IndexController.index', args=[]}
+2020-04-29 16:52:12.851  INFO 5248 --- [http-nio-8080-exec-5] com.xjtu.aspect.LogAspect                 : Result : index
+2020-04-29 16:52:47.277  INFO 5248 --- [http-nio-8080-exec-2] com.xjtu.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.xjtu.web.IndexController.blog', args=[]}
+2020-04-29 16:52:47.279  INFO 5248 --- [http-nio-8080-exec-2] com.xjtu.aspect.LogAspect                 : Result : blog
+2020-04-29 19:51:11.673  INFO 13200 --- [restartedMain] com.xjtu.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 13200 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
+2020-04-29 19:51:11.673 DEBUG 13200 --- [restartedMain] com.xjtu.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-29 19:51:11.673  INFO 13200 --- [restartedMain] com.xjtu.Blog01Application                : The following profiles are active: dev
 2020-04-29 19:51:11.751  INFO 13200 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Program Files\maven_repository\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
 2020-04-29 19:51:11.751  INFO 13200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2020-04-29 19:51:11.751  INFO 13200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -180,20 +180,20 @@
 2020-04-29 19:51:17.842  INFO 13200 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-04-29 19:51:17.936  INFO 13200 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2020-04-29 19:51:18.563  INFO 13200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-29 19:51:18.578  INFO 13200 --- [restartedMain] com.lrm.Blog01Application                : Started Blog01Application in 7.635 seconds (JVM running for 10.703)
+2020-04-29 19:51:18.578  INFO 13200 --- [restartedMain] com.xjtu.Blog01Application                : Started Blog01Application in 7.635 seconds (JVM running for 10.703)
 2020-04-29 19:51:32.738  INFO 13200 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-29 19:51:32.739  INFO 13200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-29 19:51:32.760  INFO 13200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
-2020-04-29 19:51:32.789  INFO 13200 --- [http-nio-8080-exec-1] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[]}
-2020-04-29 19:51:32.805  INFO 13200 --- [http-nio-8080-exec-1] com.lrm.aspect.LogAspect                 : Result : index
+2020-04-29 19:51:32.789  INFO 13200 --- [http-nio-8080-exec-1] com.xjtu.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xjtu.web.IndexController.index', args=[]}
+2020-04-29 19:51:32.805  INFO 13200 --- [http-nio-8080-exec-1] com.xjtu.aspect.LogAspect                 : Result : index
 2020-04-29 19:51:56.346  WARN 13200 --- [http-nio-8080-exec-6] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [270] milliseconds.
 2020-04-29 19:53:49.255  INFO 13200 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2020-04-29 19:53:49.260  INFO 13200 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2020-04-29 19:53:49.265  INFO 13200 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2020-04-29 19:53:49.275  INFO 13200 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2020-04-29 19:53:49.835  INFO 13200 --- [restartedMain] com.lrm.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 13200 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
-2020-04-29 19:53:49.835 DEBUG 13200 --- [restartedMain] com.lrm.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-29 19:53:49.835  INFO 13200 --- [restartedMain] com.lrm.Blog01Application                : The following profiles are active: dev
+2020-04-29 19:53:49.835  INFO 13200 --- [restartedMain] com.xjtu.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 13200 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
+2020-04-29 19:53:49.835 DEBUG 13200 --- [restartedMain] com.xjtu.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-29 19:53:49.835  INFO 13200 --- [restartedMain] com.xjtu.Blog01Application                : The following profiles are active: dev
 2020-04-29 19:53:50.465  INFO 13200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2020-04-29 19:53:50.545  INFO 13200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80ms. Found 5 JPA repository interfaces.
 2020-04-29 19:53:50.900  INFO 13200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
@@ -217,16 +217,16 @@
 2020-04-29 19:53:52.275  INFO 13200 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-04-29 19:53:52.325  INFO 13200 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2020-04-29 19:53:52.535  INFO 13200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-29 19:53:52.535  INFO 13200 --- [restartedMain] com.lrm.Blog01Application                : Started Blog01Application in 2.771 seconds (JVM running for 164.666)
+2020-04-29 19:53:52.535  INFO 13200 --- [restartedMain] com.xjtu.Blog01Application                : Started Blog01Application in 2.771 seconds (JVM running for 164.666)
 2020-04-29 19:53:52.545  INFO 13200 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
 2020-04-29 19:54:56.760  INFO 13200 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-29 19:54:56.762  INFO 13200 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-29 19:54:56.770  INFO 13200 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2020-04-29 20:48:59.783  INFO 13200 --- [http-nio-8080-exec-4] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[]}
-2020-04-29 20:48:59.791  INFO 13200 --- [http-nio-8080-exec-4] com.lrm.aspect.LogAspect                 : Result : index
-2020-04-29 20:59:37.257  INFO 9688 --- [restartedMain] com.lrm.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 9688 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
-2020-04-29 20:59:37.260 DEBUG 9688 --- [restartedMain] com.lrm.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-29 20:59:37.261  INFO 9688 --- [restartedMain] com.lrm.Blog01Application                : The following profiles are active: dev
+2020-04-29 20:48:59.783  INFO 13200 --- [http-nio-8080-exec-4] com.xjtu.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xjtu.web.IndexController.index', args=[]}
+2020-04-29 20:48:59.791  INFO 13200 --- [http-nio-8080-exec-4] com.xjtu.aspect.LogAspect                 : Result : index
+2020-04-29 20:59:37.257  INFO 9688 --- [restartedMain] com.xjtu.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 9688 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
+2020-04-29 20:59:37.260 DEBUG 9688 --- [restartedMain] com.xjtu.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-29 20:59:37.261  INFO 9688 --- [restartedMain] com.xjtu.Blog01Application                : The following profiles are active: dev
 2020-04-29 20:59:37.387  INFO 9688 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Program Files\maven_repository\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
 2020-04-29 20:59:37.388  INFO 9688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2020-04-29 20:59:37.389  INFO 9688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -255,7 +255,7 @@
 2020-04-29 20:59:42.675  INFO 9688 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-04-29 20:59:42.768  INFO 9688 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2020-04-29 20:59:43.387  INFO 9688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-29 20:59:43.390  INFO 9688 --- [restartedMain] com.lrm.Blog01Application                : Started Blog01Application in 6.753 seconds (JVM running for 8.247)
+2020-04-29 20:59:43.390  INFO 9688 --- [restartedMain] com.xjtu.Blog01Application                : Started Blog01Application in 6.753 seconds (JVM running for 8.247)
 2020-04-29 20:59:54.521  INFO 9688 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-29 20:59:54.522  INFO 9688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-29 20:59:54.536  INFO 9688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
@@ -564,9 +564,9 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [admin
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:830)
 
-2020-04-29 21:03:24.736  INFO 12064 --- [restartedMain] com.lrm.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 12064 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
-2020-04-29 21:03:24.736 DEBUG 12064 --- [restartedMain] com.lrm.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-29 21:03:24.736  INFO 12064 --- [restartedMain] com.lrm.Blog01Application                : The following profiles are active: dev
+2020-04-29 21:03:24.736  INFO 12064 --- [restartedMain] com.xjtu.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 12064 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
+2020-04-29 21:03:24.736 DEBUG 12064 --- [restartedMain] com.xjtu.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-29 21:03:24.736  INFO 12064 --- [restartedMain] com.xjtu.Blog01Application                : The following profiles are active: dev
 2020-04-29 21:03:24.830  INFO 12064 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Program Files\maven_repository\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
 2020-04-29 21:03:24.830  INFO 12064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2020-04-29 21:03:24.830  INFO 12064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -595,7 +595,7 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [admin
 2020-04-29 21:03:31.155  INFO 12064 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-04-29 21:03:31.264  INFO 12064 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2020-04-29 21:03:31.889  INFO 12064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-29 21:03:31.889  INFO 12064 --- [restartedMain] com.lrm.Blog01Application                : Started Blog01Application in 7.963 seconds (JVM running for 9.258)
+2020-04-29 21:03:31.889  INFO 12064 --- [restartedMain] com.xjtu.Blog01Application                : Started Blog01Application in 7.963 seconds (JVM running for 9.258)
 2020-04-29 21:03:43.126  INFO 12064 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-29 21:03:43.127  INFO 12064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-29 21:03:43.140  INFO 12064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
@@ -752,9 +752,9 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [admin
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:830)
 
-2020-04-29 21:08:32.954  INFO 11492 --- [restartedMain] com.lrm.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 11492 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
-2020-04-29 21:08:32.954 DEBUG 11492 --- [restartedMain] com.lrm.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-29 21:08:32.954  INFO 11492 --- [restartedMain] com.lrm.Blog01Application                : The following profiles are active: dev
+2020-04-29 21:08:32.954  INFO 11492 --- [restartedMain] com.xjtu.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 11492 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
+2020-04-29 21:08:32.954 DEBUG 11492 --- [restartedMain] com.xjtu.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-29 21:08:32.954  INFO 11492 --- [restartedMain] com.xjtu.Blog01Application                : The following profiles are active: dev
 2020-04-29 21:08:33.001  INFO 11492 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Program Files\maven_repository\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
 2020-04-29 21:08:33.001  INFO 11492 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2020-04-29 21:08:33.017  INFO 11492 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -783,7 +783,7 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [admin
 2020-04-29 21:08:38.082  INFO 11492 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-04-29 21:08:38.187  INFO 11492 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2020-04-29 21:08:38.761  INFO 11492 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-29 21:08:38.761  INFO 11492 --- [restartedMain] com.lrm.Blog01Application                : Started Blog01Application in 6.452 seconds (JVM running for 7.622)
+2020-04-29 21:08:38.761  INFO 11492 --- [restartedMain] com.xjtu.Blog01Application                : Started Blog01Application in 6.452 seconds (JVM running for 7.622)
 2020-04-29 21:08:57.871  INFO 11492 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-29 21:08:57.872  INFO 11492 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-29 21:08:57.886  INFO 11492 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
@@ -1704,9 +1704,9 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [admin
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:830)
 
-2020-04-29 21:17:57.051  INFO 3800 --- [restartedMain] com.lrm.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 3800 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
-2020-04-29 21:17:57.055 DEBUG 3800 --- [restartedMain] com.lrm.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-29 21:17:57.055  INFO 3800 --- [restartedMain] com.lrm.Blog01Application                : The following profiles are active: dev
+2020-04-29 21:17:57.051  INFO 3800 --- [restartedMain] com.xjtu.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 3800 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
+2020-04-29 21:17:57.055 DEBUG 3800 --- [restartedMain] com.xjtu.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-29 21:17:57.055  INFO 3800 --- [restartedMain] com.xjtu.Blog01Application                : The following profiles are active: dev
 2020-04-29 21:17:57.127  INFO 3800 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Program Files\maven_repository\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
 2020-04-29 21:17:57.128  INFO 3800 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2020-04-29 21:17:57.128  INFO 3800 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -1735,7 +1735,7 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [admin
 2020-04-29 21:18:03.742  INFO 3800 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-04-29 21:18:03.836  INFO 3800 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2020-04-29 21:18:04.492  INFO 3800 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-29 21:18:04.495  INFO 3800 --- [restartedMain] com.lrm.Blog01Application                : Started Blog01Application in 8.263 seconds (JVM running for 9.577)
+2020-04-29 21:18:04.495  INFO 3800 --- [restartedMain] com.xjtu.Blog01Application                : Started Blog01Application in 8.263 seconds (JVM running for 9.577)
 2020-04-29 21:18:21.312  INFO 3800 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-29 21:18:21.313  INFO 3800 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-29 21:18:21.333  INFO 3800 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
@@ -1944,9 +1944,9 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [admin
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:830)
 
-2020-04-29 21:20:08.790  INFO 3592 --- [restartedMain] com.lrm.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 3592 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
-2020-04-29 21:20:08.797 DEBUG 3592 --- [restartedMain] com.lrm.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-29 21:20:08.798  INFO 3592 --- [restartedMain] com.lrm.Blog01Application                : The following profiles are active: dev
+2020-04-29 21:20:08.790  INFO 3592 --- [restartedMain] com.xjtu.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 3592 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
+2020-04-29 21:20:08.797 DEBUG 3592 --- [restartedMain] com.xjtu.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-29 21:20:08.798  INFO 3592 --- [restartedMain] com.xjtu.Blog01Application                : The following profiles are active: dev
 2020-04-29 21:20:08.871  INFO 3592 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Program Files\maven_repository\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
 2020-04-29 21:20:08.871  INFO 3592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2020-04-29 21:20:08.872  INFO 3592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -1975,14 +1975,14 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [admin
 2020-04-29 21:20:14.323  INFO 3592 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-04-29 21:20:14.422  INFO 3592 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2020-04-29 21:20:15.041  INFO 3592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-29 21:20:15.044  INFO 3592 --- [restartedMain] com.lrm.Blog01Application                : Started Blog01Application in 6.966 seconds (JVM running for 8.171)
+2020-04-29 21:20:15.044  INFO 3592 --- [restartedMain] com.xjtu.Blog01Application                : Started Blog01Application in 6.966 seconds (JVM running for 8.171)
 2020-04-29 21:20:35.230  INFO 3592 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-29 21:20:35.231  INFO 3592 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-29 21:20:35.244  INFO 3592 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
 2020-04-29 21:20:35.553  WARN 3592 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [281] milliseconds.
-2020-04-29 21:23:05.323  INFO 8496 --- [restartedMain] com.lrm.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 8496 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
-2020-04-29 21:23:05.330 DEBUG 8496 --- [restartedMain] com.lrm.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-29 21:23:05.331  INFO 8496 --- [restartedMain] com.lrm.Blog01Application                : The following profiles are active: dev
+2020-04-29 21:23:05.323  INFO 8496 --- [restartedMain] com.xjtu.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 8496 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
+2020-04-29 21:23:05.330 DEBUG 8496 --- [restartedMain] com.xjtu.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-29 21:23:05.331  INFO 8496 --- [restartedMain] com.xjtu.Blog01Application                : The following profiles are active: dev
 2020-04-29 21:23:05.429  INFO 8496 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Program Files\maven_repository\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
 2020-04-29 21:23:05.430  INFO 8496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2020-04-29 21:23:05.431  INFO 8496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -2011,7 +2011,7 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [admin
 2020-04-29 21:23:10.943  INFO 8496 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-04-29 21:23:11.042  INFO 8496 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2020-04-29 21:23:11.667  INFO 8496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-29 21:23:11.667  INFO 8496 --- [restartedMain] com.lrm.Blog01Application                : Started Blog01Application in 7.038 seconds (JVM running for 8.366)
+2020-04-29 21:23:11.667  INFO 8496 --- [restartedMain] com.xjtu.Blog01Application                : Started Blog01Application in 7.038 seconds (JVM running for 8.366)
 2020-04-29 21:23:18.607  INFO 8496 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-29 21:23:18.608  INFO 8496 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-29 21:23:18.626  INFO 8496 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
@@ -2224,9 +2224,9 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [admin
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:830)
 
-2020-04-29 21:36:10.179  INFO 11624 --- [main] com.lrm.Blog01ApplicationTests           : Starting Blog01ApplicationTests on DESKTOP-F8A1EJI with PID 11624 (started by one in D:\ideawork\blog01)
-2020-04-29 21:36:10.182 DEBUG 11624 --- [main] com.lrm.Blog01ApplicationTests           : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-29 21:36:10.183  INFO 11624 --- [main] com.lrm.Blog01ApplicationTests           : The following profiles are active: dev
+2020-04-29 21:36:10.179  INFO 11624 --- [main] com.xjtu.Blog01ApplicationTests           : Starting Blog01ApplicationTests on DESKTOP-F8A1EJI with PID 11624 (started by one in D:\ideawork\blog01)
+2020-04-29 21:36:10.182 DEBUG 11624 --- [main] com.xjtu.Blog01ApplicationTests           : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-29 21:36:10.183  INFO 11624 --- [main] com.xjtu.Blog01ApplicationTests           : The following profiles are active: dev
 2020-04-29 21:36:12.114  INFO 11624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2020-04-29 21:36:12.262  INFO 11624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 133ms. Found 5 JPA repository interfaces.
 2020-04-29 21:36:14.413  INFO 11624 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
@@ -2240,14 +2240,14 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [admin
 2020-04-29 21:36:20.036  WARN 11624 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2020-04-29 21:36:20.671  INFO 11624 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-04-29 21:36:20.877  INFO 11624 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-04-29 21:36:21.663  INFO 11624 --- [main] com.lrm.Blog01ApplicationTests           : Started Blog01ApplicationTests in 12.552 seconds (JVM running for 14.512)
+2020-04-29 21:36:21.663  INFO 11624 --- [main] com.xjtu.Blog01ApplicationTests           : Started Blog01ApplicationTests in 12.552 seconds (JVM running for 14.512)
 2020-04-29 21:36:22.070  INFO 11624 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2020-04-29 21:36:22.074  INFO 11624 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2020-04-29 21:36:22.077  INFO 11624 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2020-04-29 21:36:22.098  INFO 11624 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2020-04-29 21:36:49.075  INFO 1828 --- [restartedMain] com.lrm.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 1828 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
-2020-04-29 21:36:49.079 DEBUG 1828 --- [restartedMain] com.lrm.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-29 21:36:49.079  INFO 1828 --- [restartedMain] com.lrm.Blog01Application                : The following profiles are active: dev
+2020-04-29 21:36:49.075  INFO 1828 --- [restartedMain] com.xjtu.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 1828 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
+2020-04-29 21:36:49.079 DEBUG 1828 --- [restartedMain] com.xjtu.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-29 21:36:49.079  INFO 1828 --- [restartedMain] com.xjtu.Blog01Application                : The following profiles are active: dev
 2020-04-29 21:36:49.171  INFO 1828 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Program Files\maven_repository\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
 2020-04-29 21:36:49.173  INFO 1828 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2020-04-29 21:36:49.173  INFO 1828 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -2276,7 +2276,7 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [admin
 2020-04-29 21:36:55.243  INFO 1828 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-04-29 21:36:55.360  INFO 1828 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2020-04-29 21:36:56.093  INFO 1828 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-29 21:36:56.098  INFO 1828 --- [restartedMain] com.lrm.Blog01Application                : Started Blog01Application in 7.769 seconds (JVM running for 9.653)
+2020-04-29 21:36:56.098  INFO 1828 --- [restartedMain] com.xjtu.Blog01Application                : Started Blog01Application in 7.769 seconds (JVM running for 9.653)
 2020-04-29 21:37:08.615  INFO 1828 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-29 21:37:08.615  INFO 1828 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-29 21:37:08.629  INFO 1828 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms

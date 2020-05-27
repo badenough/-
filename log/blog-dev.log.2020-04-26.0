@@ -1,6 +1,6 @@
-2020-04-26 14:41:42.300  INFO 6648 --- [restartedMain] com.lrm.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 6648 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
-2020-04-26 14:41:42.303 DEBUG 6648 --- [restartedMain] com.lrm.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-26 14:41:42.303  INFO 6648 --- [restartedMain] com.lrm.Blog01Application                : The following profiles are active: dev
+2020-04-26 14:41:42.300  INFO 6648 --- [restartedMain] com.xjtu.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 6648 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
+2020-04-26 14:41:42.303 DEBUG 6648 --- [restartedMain] com.xjtu.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-26 14:41:42.303  INFO 6648 --- [restartedMain] com.xjtu.Blog01Application                : The following profiles are active: dev
 2020-04-26 14:41:42.356  INFO 6648 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Program Files\maven_repository\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
 2020-04-26 14:41:42.357  INFO 6648 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2020-04-26 14:41:42.357  INFO 6648 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -78,7 +78,7 @@ java.sql.SQLException: The server time zone value '�й���׼ʱ��' is 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
-	at com.lrm.Blog01Application.main(Blog01Application.java:10)
+	at com.xjtu.Blog01Application.main(Blog01Application.java:10)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -125,7 +125,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
-	at com.lrm.Blog01Application.main(Blog01Application.java:10)
+	at com.xjtu.Blog01Application.main(Blog01Application.java:10)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -160,9 +160,9 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
 	... 38 common frames omitted
 
-2020-04-26 14:43:37.186  INFO 8648 --- [restartedMain] com.lrm.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 8648 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
-2020-04-26 14:43:37.190 DEBUG 8648 --- [restartedMain] com.lrm.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-26 14:43:37.190  INFO 8648 --- [restartedMain] com.lrm.Blog01Application                : The following profiles are active: dev
+2020-04-26 14:43:37.186  INFO 8648 --- [restartedMain] com.xjtu.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 8648 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
+2020-04-26 14:43:37.190 DEBUG 8648 --- [restartedMain] com.xjtu.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-26 14:43:37.190  INFO 8648 --- [restartedMain] com.xjtu.Blog01Application                : The following profiles are active: dev
 2020-04-26 14:43:37.243  INFO 8648 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Program Files\maven_repository\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
 2020-04-26 14:43:37.245  INFO 8648 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2020-04-26 14:43:37.245  INFO 8648 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -240,7 +240,7 @@ java.sql.SQLException: The server time zone value '�й���׼ʱ��' is 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
-	at com.lrm.Blog01Application.main(Blog01Application.java:10)
+	at com.xjtu.Blog01Application.main(Blog01Application.java:10)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -287,7 +287,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
-	at com.lrm.Blog01Application.main(Blog01Application.java:10)
+	at com.xjtu.Blog01Application.main(Blog01Application.java:10)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -322,9 +322,9 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
 	... 38 common frames omitted
 
-2020-04-26 14:47:22.882  INFO 1880 --- [restartedMain] com.lrm.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 1880 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
-2020-04-26 14:47:22.901 DEBUG 1880 --- [restartedMain] com.lrm.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-26 14:47:22.902  INFO 1880 --- [restartedMain] com.lrm.Blog01Application                : The following profiles are active: dev
+2020-04-26 14:47:22.882  INFO 1880 --- [restartedMain] com.xjtu.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 1880 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
+2020-04-26 14:47:22.901 DEBUG 1880 --- [restartedMain] com.xjtu.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-26 14:47:22.902  INFO 1880 --- [restartedMain] com.xjtu.Blog01Application                : The following profiles are active: dev
 2020-04-26 14:47:23.095  INFO 1880 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Program Files\maven_repository\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
 2020-04-26 14:47:23.096  INFO 1880 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2020-04-26 14:47:23.097  INFO 1880 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -402,7 +402,7 @@ java.sql.SQLException: The server time zone value '�й���׼ʱ��' is 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
-	at com.lrm.Blog01Application.main(Blog01Application.java:10)
+	at com.xjtu.Blog01Application.main(Blog01Application.java:10)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -449,7 +449,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
-	at com.lrm.Blog01Application.main(Blog01Application.java:10)
+	at com.xjtu.Blog01Application.main(Blog01Application.java:10)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -484,9 +484,9 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
 	... 38 common frames omitted
 
-2020-04-26 14:51:58.242  INFO 8368 --- [restartedMain] com.lrm.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 8368 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
-2020-04-26 14:51:58.246 DEBUG 8368 --- [restartedMain] com.lrm.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-04-26 14:51:58.247  INFO 8368 --- [restartedMain] com.lrm.Blog01Application                : The following profiles are active: dev
+2020-04-26 14:51:58.242  INFO 8368 --- [restartedMain] com.xjtu.Blog01Application                : Starting Blog01Application on DESKTOP-F8A1EJI with PID 8368 (D:\ideawork\blog01\target\classes started by one in D:\ideawork\blog01)
+2020-04-26 14:51:58.246 DEBUG 8368 --- [restartedMain] com.xjtu.Blog01Application                : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-26 14:51:58.247  INFO 8368 --- [restartedMain] com.xjtu.Blog01Application                : The following profiles are active: dev
 2020-04-26 14:51:58.323  INFO 8368 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\Program Files\maven_repository\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/maven_repository/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
 2020-04-26 14:51:58.323  INFO 8368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2020-04-26 14:51:58.324  INFO 8368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -515,7 +515,7 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 2020-04-26 14:52:03.687  INFO 8368 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-04-26 14:52:03.798  INFO 8368 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2020-04-26 14:52:04.463  INFO 8368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-26 14:52:04.466  INFO 8368 --- [restartedMain] com.lrm.Blog01Application                : Started Blog01Application in 6.832 seconds (JVM running for 8.13)
+2020-04-26 14:52:04.466  INFO 8368 --- [restartedMain] com.xjtu.Blog01Application                : Started Blog01Application in 6.832 seconds (JVM running for 8.13)
 2020-04-26 14:52:40.065  INFO 8368 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-26 14:52:40.065  INFO 8368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-26 14:52:40.084  INFO 8368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms

@@ -18,7 +18,7 @@
 <nav th:fragment="menu(n)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small" >
   <div class="ui container">
     <div class="ui inverted secondary stackable menu">
-      <h2 class="ui white header item">NotNull</h2>
+      <h2 class="ui white header item">博客</h2>
       <a href="#" th:href="@{/}" class="m-item item m-mobile-hide " th:classappend="${n==1} ? 'active'"><i class="home icon"></i>首页</a>
       <a href="#" th:href="@{/types/-1}" class="m-item item m-mobile-hide" th:classappend="${n==2} ? 'active'"><i class="idea icon"></i>分类</a>
       <a href="#" th:href="@{/tags/-1}" class="m-item item m-mobile-hide" th:classappend="${n==3} ? 'active'"><i class="tags icon"></i>标签</a>
@@ -32,7 +32,12 @@
           </div>
         </form>
       </div>
-      <a href="http://localhost:8080/admin" th:if="${session.user}==null" target="_blank" class="m-item item m-mobile-hide" >登录</a>
+      <a href="http://39.99.136.253/admin" th:if="${session.user}==null" target="_blank" class="m-item item m-mobile-hide" >登录</a>
+      <div class="m-item item m-mobile-hide" th:if="${session.user}!=null">
+        <img class="ui avatar image" src="https://unsplash.it/100/100?image=1005" th:src="@{${session.user.avatar}}">
+        <span th:text="${session.user.nickname}">用户名</span>
+      </div>
+    </div>
     </div>
   </div>
   <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
